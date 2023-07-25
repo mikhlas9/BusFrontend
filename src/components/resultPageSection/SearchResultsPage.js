@@ -24,7 +24,7 @@ function SearchResultsPage() {
   useEffect(() => {
     // Fetch students based on the search date
     axios
-      .get(`http://localhost:5000/students/${searchDate}`)
+      .get(`https://privatebusbackend.onrender.com/students/${searchDate}`)
       .then((response) => {
         setSearchResults(response.data);
       })
@@ -39,7 +39,7 @@ function SearchResultsPage() {
         ...prevLoading,
         [studentId]: true, // Set loading state to true for the specific student
       }));
-      const response = await axios.post('http://localhost:5000/send', {
+      const response = await axios.post('https://privatebusbackend.onrender.com/send', {
         studentId,
         recipient: email,
         subject: 'Buss Fee Paid',

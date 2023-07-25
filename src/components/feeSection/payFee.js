@@ -41,7 +41,7 @@ import './payfee.css';
         formData.append('myImage', form.myImage);
 
         // Send the form data to the server
-        axios.post('http://localhost:5000/upload', formData, {
+        axios.post('https://privatebusbackend.onrender.com/upload', formData, {
             headers: {
                 'Content-Type': 'multipart/form-data',
             },

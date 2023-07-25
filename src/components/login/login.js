@@ -17,7 +17,7 @@ const Login = () => {
     }
 
     const login = () =>{
-        axios.post("http://localhost:5000/login", user)
+        axios.post("https://privatebusbackend.onrender.com/login", user)
         .then(res => {
             console.log(res);
             // setLoginUser(res.data.user);

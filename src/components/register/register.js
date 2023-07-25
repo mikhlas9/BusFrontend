@@ -22,7 +22,7 @@ const Register = () => {
         const {email, password, reEnterPassword} = user;
         if(email && password && (password === reEnterPassword)){
            
-            axios.post("http://localhost:5000/register", user)
+            axios.post("https://privatebusbackend.onrender.com/register", user)
             .then(res => {
                 console.log(res);
                 alert(res.data.message);
