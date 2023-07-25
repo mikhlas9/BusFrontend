@@ -1,0 +1,47 @@
+.wrapperD{
+    max-width: 500px;
+    width: 100%;
+    height: 50vh;
+    background: #fff;
+    margin: 150px auto;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .wrapperD .titleD{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 45px;
+    color: #fec107;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .wrapperD .formD{
+    width: 100%;
+  }
+  
+  .wrapperD .formD .inputfieldD{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+  }
+  .wrapperD .formD .inputfieldD .btnD{
+    width: 95%;
+     padding: 8px 10px;
+     margin-top: 35px;
+    font-size: 15px; 
+    border: 0px;
+    background:  #fec107;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    margin-right: 125px;
+  }
+  
+  .wrapperD .formD .inputfieldD .btnD:hover{
+    background: #ffd658;
+  }
+  

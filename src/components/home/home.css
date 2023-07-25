@@ -1,0 +1,61 @@
+.navbar{
+    height: 60px;
+    color: black;
+    font-size: 30px;
+    font: bold;
+    text-align: center;
+    padding: 13px;
+}
+.homePage{
+    position: relative;
+    text-align: center;
+    background-image: url(../images/DALL·E\ 2023-07-07\ 19.36.44\ -\ complete\ .png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100vw;
+    height: 85vh;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.titleH{
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    top: 150px;
+    right: 600px;
+}
+.btnH{
+    -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  -webkit-box-shadow: 4px 6px 3px #7d8529;
+  -moz-box-shadow: 4px 6px 3px #7d8529;
+  box-shadow: 4px 6px 3px #7d8529;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 24px;
+  background: #ffd658;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+    top: 45vh;
+    right: 35vw;
+    margin-right: 30px;
+}
+.btnH:hover{
+    background: #ffd658;
+    background-image: -webkit-linear-gradient(top, #ffd658, #ffef0a);
+    background-image: -moz-linear-gradient(top, #ffd658, #ffef0a);
+    background-image: -ms-linear-gradient(top, #ffd658, #ffef0a);
+    background-image: -o-linear-gradient(top, #ffd658, #ffef0a);
+    background-image: linear-gradient(to bottom, #ffd658, #ffef0a);
+    text-decoration: none;
+ }
+.admin:hover{
+    background-color: green;
+}
+.fee:hover{
+    background-color: blue;
+}
